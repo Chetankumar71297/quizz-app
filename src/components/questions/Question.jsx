@@ -42,7 +42,7 @@ export default function Question({ setStartOrEndQuiz }) {
         />
       </div>
       <div className="options-container">
-        {activeQuestion.options.map((option, index) => (
+        {activeQuestion?.options?.map((option, index) => (
           <button
             key={index}
             dangerouslySetInnerHTML={{ __html: option }}
