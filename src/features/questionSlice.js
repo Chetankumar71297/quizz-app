@@ -9,7 +9,7 @@ const initialState = {
   status: "",
   error: "",
   questions: [],
-  activeQuestion: {},
+  activeQuestion: null,
 };
 
 export const getTenRandomQuestions = createAsyncThunk(
